@@ -1,0 +1,16 @@
+GET http://localhost:8080/albums
+
+###
+
+GET http://localhost:8080/albums/5
+
+###
+
+POST http://localhost:8080/albums
+
+{
+    "ID": "4", 
+    "Title": "范特西", 
+    "Artist": "周杰倫", 
+    "Price": 36.99
+}
